@@ -51,16 +51,10 @@ module.exports = team => {
             html+=createManagerHtml(managerObject)
         } else if (item.getRole() === 'Engineer') {
             html+=createEngineerHtml(item)
-            // let engineerArray = []
-            // engineerArray.push(item)
-            // let finalArray = engineerArray.map( item => createEngineerHtml(item))
-            // html.push(finalArray.join('\n'))
+            
         } else {
             html+= createInternHtml(item)
-            // let internArray = []
-            // internArray.push(item)
-            // let finalArray = internArray.map(item => createInternHtml(item))
-            // html.push(finalArray.join('\n'))
+            
         }
     })
 

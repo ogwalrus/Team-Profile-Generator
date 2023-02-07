@@ -22,17 +22,17 @@ function addIntern() {
     inquirer.prompt([
         {
             type: 'input',
-            message: 'What is the name of the intern?',
+            message: 'What is the interns name?',
             name: 'name',
         },
         {
             type: 'number',
-            message: 'What is the id of the intern?',
+            message: 'What is the interns id?',
             name: 'id',
         },
         {
             type: 'input',
-            message: 'What is the email of the intern?',
+            message: 'What is the interns email?',
             name: 'email',
         },
         {
