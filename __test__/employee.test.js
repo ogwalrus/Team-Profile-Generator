@@ -14,7 +14,7 @@ describe('Employee', () => {
 
     it('should set the id of the employee properly in the employee class', () => {
         let testId = 12;
-        let testClass = new Employee('John', testId, 'some@email.com')
+        let testClass = new Employee('Tom', testId, 'tom@test.com')
         expect(testClass.id === testId).toBe(true)
     });
 
@@ -43,7 +43,7 @@ describe('Employee', () => {
     });
 
     it('should retrieve the role of the employee properly using the .getRole method', () => {
-        let testClass = new Employee('John', 7, 'some@email.com')
+        let testClass = new Employee('Tommy', 7, 'tommy@email.com')
         expect(testClass.getRole() === 'Employee').toBe(true)
     });
 });
