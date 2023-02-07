@@ -2,7 +2,7 @@ const Employee = require('../lib/employee');
 
 describe('Employee', () => {
     it('should create an instance of the class Employee', () => {
-        let testClass = new Employee('John', 7, 'some@email.com')
+        let testClass = new Employee('Tom', 7, 'tom@test.com')
         expect(typeof testClass).toBe('object')
     });
 
