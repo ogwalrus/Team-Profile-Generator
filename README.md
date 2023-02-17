@@ -1,4 +1,4 @@
-# Employee Summary
+# Team Profile Generator
 A Node.js command-line application that generates an HTML webpage to display summaries for each member of a software engineering team.
 
 ## Table of Contents
@@ -34,3 +34,10 @@ Create a new pull request
 To run tests, use the following command:
 
 npm run test
+### Collaborators
+This project was worked on in a group by <br/>
+https://github.com/ogwalrus <br/>
+https://github.com/NickJ13 <br/>
+https://github.com/mekael18 <br/>
+https://github.com/NyqEvo <br/>
+https://github.com/ekirbs
